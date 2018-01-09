@@ -1,7 +1,7 @@
 // Add your doToElementsInArray() function here:
 function doToElementsInArray(array) {
-  array.forEach(() => {
-    return
+  array.forEach(callback => {
+    return callback
   })
 }
 
